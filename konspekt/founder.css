@@ -1,0 +1,20 @@
+p {
+	margin: 10px;
+}
+
+footer a,
+footer img {
+	background-color: #303030;
+}
+
+span {
+	position: relative;
+	top: 2px;
+}
+
+footer img {
+	position: relative;
+	top: 35px;
+	left: 0px;
+	margin-left: 5px;
+}
