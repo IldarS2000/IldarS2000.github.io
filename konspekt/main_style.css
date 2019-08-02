@@ -15,7 +15,11 @@ body {
 	ul li {
 		width: 250px;
 		margin: auto;
-		font-size: 70%;
+		font-size: 50%;
+	}
+
+	h1 {
+		text-align: center;
 	}
 }
 
@@ -26,7 +30,11 @@ body {
 	ul li {
 		width: 270px;
 		margin: auto;
-		font-size: 70%;
+		font-size: 60%;
+	}
+
+	h1 {
+		text-align: center;
 	}
 }
 
@@ -37,7 +45,11 @@ body {
 	ul li {
 		width: 400px;
 		margin: auto;
-		font-size: 95%;
+		font-size: 70%;
+	}
+
+	h1 {
+		text-align: center;
 	}
 }
 
