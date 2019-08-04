@@ -36,7 +36,8 @@ a {
 }
 
 a:visited,
-a:link {
+a:link,
+a {
 	color: #424242;
 }
 
@@ -138,7 +139,8 @@ footer img {
 	margin-left: 5px;
 }
 
-#donat {
+#donat,
+#dropdown li a {
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -148,20 +150,14 @@ footer img {
 	color: white;
 }
 
+#dropdown li a:hover {
+	color: #734bb2;
+}
+
 #dropdown li {
 	margin-left: 50px;
 	color: #424242;
 	list-style: circle;
-}
-
-#dropdown li a {
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-}
-
-#dropdown li a:hover {
-	color: #734bb2;
 }
 
 p.share {
