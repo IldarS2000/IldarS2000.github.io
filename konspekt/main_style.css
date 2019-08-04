@@ -122,12 +122,9 @@ footer img {
 }
 
 footer img {
-	position: relative;
 	width: 34px;
 	height: 34px;
-	top: 30px;
-	left: 20px;
-	margin-left: 5px;
+	margin-left: 7px;
 }
 
 #donat {
@@ -155,3 +152,4 @@ footer img {
 #dropdown li a:hover {
 	color: #734bb2;
 }
+
