@@ -104,12 +104,12 @@ footer {
 /* ------------- */
 
 footer {
-	padding: 30px;
+	padding: 15px;
 	background-color: #303030;
 }
 
 footer p,
-#author {
+#donat {
 	color: #d3d3d3;
 	background-color: #303030;
 	text-align: center;
@@ -130,12 +130,28 @@ footer img {
 	margin-left: 5px;
 }
 
-#author {
+#donat {
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 }
 
-#author:hover {
+#donat:hover {
 	color: white;
+}
+
+#dropdown li {
+	margin-left: 50px;
+	color: #424242;
+	list-style: circle;
+}
+
+#dropdown li a {
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+#dropdown li a:hover {
+	color: #734bb2;
 }
