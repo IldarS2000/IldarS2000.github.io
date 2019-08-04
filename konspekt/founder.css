@@ -1,20 +1,13 @@
-p {
-	margin: 10px;
+h4 {
+	margin: 15px;
 }
 
-footer a,
-footer img {
-	background-color: #303030;
+section p {
+	font-size: 100%;
+	margin: 15px;
 }
 
-span {
-	position: relative;
-	top: 2px;
-}
-
-footer img {
-	position: relative;
-	top: 35px;
-	left: 0px;
-	margin-left: 5px;
+iframe {
+	margin: 5px 5px 5px 10px;
+	width: 50%;
 }
