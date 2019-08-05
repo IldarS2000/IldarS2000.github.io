@@ -20,11 +20,11 @@ body {
 		font-size: 90%;
 	}
 
-	h2 {
+	section h2 {
 		margin-left: 5px;
 	}
 
-	li h3 {
+	section li h3 {
 		margin-left: 15px;
 	}
 }
