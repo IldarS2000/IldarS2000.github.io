@@ -14,21 +14,6 @@ body {
 	font-family: san-serif;
 }
 
-@media (max-width: 240px) {
-
-	body {
-		font-size: 90%;
-	}
-
-	section h2 {
-		margin-left: 5px;
-	}
-
-	section li h3 {
-		margin-left: 15px;
-	}
-}
-
 @media (min-width: 1024px) {
 
 	#all_content {
