@@ -100,12 +100,11 @@ footer {
 /* ------------- */
 
 footer {
-	padding: 15px;
 	background-color: #303030;
 }
 
 #copyright {
-	margin-top: 10px;
+	margin: 10px 0px;
 	font-size: 90%;
 	color: #d3d3d3;
 	background-color: #303030;
@@ -113,9 +112,9 @@ footer {
 	line-height: 25px;
 }
 
-footer span,
 #donat,
 footer p {
+	margin-left: 5px;
 	color: #d3d3d3;
 	background-color: #303030;
 	line-height: 25px;
@@ -127,6 +126,7 @@ footer img {
 }
 
 footer img {
+	margin: 10px 0px;
 	position: relative;
 	top: 8px;
 	width: 30px;
