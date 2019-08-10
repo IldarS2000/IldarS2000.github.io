@@ -145,11 +145,13 @@ footer img {
 	color: white;
 }
 
-#dropdown li a:hover {
+#dropdown1 li a:hover,
+#dropdown2 li a:hover {
 	color: #734bb2;
 }
 
-#dropdown li {
+#dropdown1 li,
+#dropdown2 li {
 	margin-left: 50px;
 	color: #424242;
 	list-style: circle;
