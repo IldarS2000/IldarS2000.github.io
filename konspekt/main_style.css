@@ -135,7 +135,8 @@ footer img {
 }
 
 #donat,
-#dropdown li a {
+#dropdown li a,
+.share a {
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
@@ -157,10 +158,18 @@ footer img {
 	list-style: circle;
 }
 
-p.share {
-	margin: 15px 0px 5px 10px;
+.share {
+	margin: 20px 0px 20px 20px;
 }
 
-.ya-share2 {
-	margin: 0px 0px 20px 20px;
+.share a {
+	padding: 7px 15px;
+	border-radius: 3px;
+	background-color: #597da3;
+	color: #fefefe;
+	font-size: 80%;
+}
+
+.share a:hover {
+	color: #424242;
 }
