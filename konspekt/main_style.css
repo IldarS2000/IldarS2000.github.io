@@ -114,7 +114,7 @@ footer {
 
 #donat,
 footer p {
-	margin-left: 5px;
+	margin-left: 10px;
 	color: #d3d3d3;
 	background-color: #303030;
 	line-height: 25px;
@@ -171,5 +171,9 @@ footer img {
 }
 
 .share a:hover {
-	color: #424242;
+	color: #d1fff7;
+}
+
+#vk_link {
+	margin-left: 10px;
 }
