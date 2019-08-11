@@ -16,5 +16,8 @@ iframe {
 
 section p a {
 	text-decoration: underline;
+}
+
+p span {
 	font-style: italic;
 }
