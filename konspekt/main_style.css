@@ -23,6 +23,16 @@ body {
 	}
 }
 
+@media (hover),
+(min-width:0\0),
+(min--moz-device-pixel-ratio:0) {
+	li h3:hover {
+		background-color: #d1fff7;
+		padding-left: 25px;
+		color: #734bb2;
+	}
+}
+
 nav {
 	border-bottom: 5px solid #000000;
 }
@@ -78,12 +88,6 @@ li h3 {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
-}
-
-li h3:hover {
-	background-color: #d1fff7;
-	padding-left: 25px;
-	color: #734bb2;
 }
 
 /* для закрепленного футера */
