@@ -5,6 +5,7 @@ h4 {
 section p {
 	font-size: 100%;
 	margin: 15px;
+	line-height: 20px;
 }
 
 iframe {
@@ -13,3 +14,6 @@ iframe {
 	width: 270px;
 }
 
+section p a {
+	text-decoration: underline;
+}
