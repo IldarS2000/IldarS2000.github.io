@@ -14,7 +14,12 @@ iframe {
 	width: 270px;
 }
 
-section p a {
+section p a:link,
+section p a:visited {
+	color: #0645ad;
+}
+
+section p a:hover {
 	text-decoration: underline;
 }
 
