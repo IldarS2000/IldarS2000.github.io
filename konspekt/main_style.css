@@ -36,7 +36,7 @@ footer {
 @media (hover),
 (min-width:0\0),
 (min--moz-device-pixel-ratio: 0) {
-	nav a:hover {
+	nav h1 a:hover {
 		color: #424242;
 	}
 
@@ -147,7 +147,8 @@ footer img {
 #donat,
 #dropdown1 li a,
 #dropdown1 li a,
-.share a {
+.share a,
+nav h1 a {
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
