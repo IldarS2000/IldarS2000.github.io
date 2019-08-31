@@ -116,3 +116,16 @@ article div {
 	width: 90%;
 	height: 80%;
 }
+
+.helloworld {
+	text-align: center;
+	font-size: 300%;
+}
+
+#hello {
+	color: #f71e93;
+}
+
+#world {
+	color: #26ce08;
+}
