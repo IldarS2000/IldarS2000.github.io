@@ -1,22 +1,32 @@
 * {
 	margin: 0;
 	padding: 0;
-	background-color: #fefefe;
 }
 
-html {
-	position: relative;
-	min-height: 100%;
-}
-
+html,
 body {
 	height: 100%;
+}
+
+#all_content {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: #fefefe;
 	font-family: sans-serif;
 }
 
-@media (min-width: 1024px) {
+#content {
+	flex: 1 0 auto;
+}
 
-	#all_content {
+footer {
+	flex: 0 0 auto;
+	background-color: #303030;
+}
+
+@media (min-width: 1024px) {
+	#content {
 		width: 800px;
 		margin: auto;
 		font-size: 100%;
@@ -25,11 +35,28 @@ body {
 
 @media (hover),
 (min-width:0\0),
-(min--moz-device-pixel-ratio:0) {
+(min--moz-device-pixel-ratio: 0) {
+	nav a:hover {
+		color: #424242;
+	}
+
 	li h3:hover {
 		background-color: #d1fff7;
 		padding-left: 25px;
 		color: #734bb2;
+	}
+
+	#donat:hover {
+		color: white;
+	}
+
+	#dropdown1 li a:hover,
+	#dropdown2 li a:hover {
+		color: #734bb2;
+	}
+
+	.share a:hover {
+		background-color: #6a8aac;
 	}
 }
 
@@ -66,10 +93,6 @@ nav a {
 	transition: 0.2s linear;
 }
 
-nav a:hover {
-	color: #424242;
-}
-
 h2 {
 	margin-left: 15px;
 	padding-top: 10px;
@@ -88,23 +111,6 @@ li h3 {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
-}
-
-/* для закрепленного футера */
-#all_content {
-	margin-bottom: 140px;
-}
-
-footer {
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-}
-
-/* ------------- */
-
-footer {
-	background-color: #303030;
 }
 
 #copyright {
@@ -139,20 +145,12 @@ footer img {
 }
 
 #donat,
-#dropdown li a,
+#dropdown1 li a,
+#dropdown1 li a,
 .share a {
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
-}
-
-#donat:hover {
-	color: white;
-}
-
-#dropdown1 li a:hover,
-#dropdown2 li a:hover {
-	color: #734bb2;
 }
 
 #dropdown1 li,
@@ -172,10 +170,6 @@ footer img {
 	background-color: #597da3;
 	color: #fefefe;
 	font-size: 80%;
-}
-
-.share a:hover {
-	background-color: #6a8aac;
 }
 
 #vk_link {
